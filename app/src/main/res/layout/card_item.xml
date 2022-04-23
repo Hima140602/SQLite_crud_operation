@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardBackgroundColor="#D3D1D1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tvfrname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="20sp"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/tvfrdesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="20sp"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/tvfrqty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="20sp"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/tvfrprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="20sp"
+            android:layout_margin="5dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnupdate"
+                android:text="Update"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:layout_margin="10dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btndelete"
+                android:text="Delete"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:layout_margin="10dp"/>
+
+            <ImageView
+                android:id="@+id/imginvoice"
+                android:layout_width="67dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="39dp"
+                android:layout_margin="20dp"
+                app:srcCompat="@drawable/ic_baseline_assignment_turned_in_24" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

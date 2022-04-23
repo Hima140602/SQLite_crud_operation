@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SQLiteDemoInternalPractice"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edtfname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Fruit Name"
+        android:layout_margin="10dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/edtfdesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Fruit Description"
+        android:layout_margin="10dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/edtfqty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Fruit Quantity"
+        android:layout_margin="10dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/edtfprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:hint="Enter Fruit Price"/>
+
+    <Button
+        android:id="@+id/btninsert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INSERT"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btnviewall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VIEW ALL"
+        android:layout_margin="10dp"/>
+</LinearLayout>
