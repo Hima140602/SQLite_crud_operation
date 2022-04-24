@@ -52,6 +52,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="INSERT"
+        android:background="@drawable/button_shape"
         android:layout_margin="10dp"/>
 
     <Button
@@ -59,5 +60,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="VIEW ALL"
-        android:layout_margin="10dp"/>
+        android:layout_margin="10dp"
+        android:background="@drawable/button_shape"/>
 </LinearLayout>

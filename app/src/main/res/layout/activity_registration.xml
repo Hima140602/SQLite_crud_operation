@@ -63,6 +63,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Registration"
+        android:background="@drawable/button_shape"
         android:layout_margin="10dp"/>
 
     <Button
@@ -70,6 +71,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login"
+        android:background="@drawable/button_shape"
         android:layout_margin="10dp"/>
 
 
