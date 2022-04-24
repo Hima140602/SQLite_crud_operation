@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         Handler().postDelayed({
-            val intent = Intent(this,SQLiteDemoInternalPractice::class.java)
+            val intent = Intent(this,registration_activity::class.java)
             startActivity(intent)
             finish()
         }, 3000)

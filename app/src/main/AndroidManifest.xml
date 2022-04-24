@@ -10,12 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.InternalPracticalDemo">
         <activity
+            android:name=".login_activity"
+            android:exported="false" />
+        <activity
+            android:name=".registration_activity"
+            android:exported="false" />
+        <activity
             android:name=".ViewAll"
             android:exported="false" />
         <activity
             android:name=".SQLiteDemoInternalPractice"
             android:exported="false" />
-
         <activity
             android:name=".MainActivity"
             android:exported="true"
